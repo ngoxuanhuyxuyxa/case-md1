@@ -20,7 +20,7 @@ function run() {
     snake.ve();
     if (snake.x == food.x && snake.y == food.y) {
         food.randomfood();
-        snake.maxCells++;
+        snake.maxCells+=100;
         score++;
         document.getElementById("hiendiem").innerHTML= "score:" + score;
     }
